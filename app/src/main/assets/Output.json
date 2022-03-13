@@ -1,0 +1,104 @@
+{
+    "total": "100000",
+    "currency": "IDR",
+    "timestamp": "101010101010",
+    "date": "11-02-2021",
+    "time": "12:02:21",
+    "item": [{
+            "name": "Item title 1",
+            "icon_url": "www.google.com/image.png",
+            "help": true,
+            "help_info": {
+                "name": "Item 1",
+
+                "description": "Description  Description  Description  Description  Description  Description  Description  Description  Description  Description  Description",
+                "sub_item": [{
+                    "name": "Subtitle 1",
+                    "description ": "Description  Description  Description  Description  Description  Description  Description  Description  Description  Description  Description"
+                }]
+            },
+            "currency": "IDR",
+            "price": "100000",
+            "other_currency": [{
+                    "currency": "AUD",
+                    "price": "10"
+                },
+                {
+                    "currency": "USD",
+                    "price": "9"
+                }
+            ]
+        },
+        {
+            "name": "Item title 2",
+            "icon_url": "www.google.com/image.png",
+            "help": false,
+            "help_info": {},
+            "currency": "IDR",
+            "price": "100000",
+            "other_currency": [{
+                    "currency": "AUD",
+                    "price": "10"
+                },
+                {
+                    "currency": "USD",
+                    "price": "9"
+                }
+            ]
+        },
+        {
+            "name": "Item title 3",
+            "icon_url": "www.google.com/image.png",
+            "help": false,
+            "help_info": {},
+            "currency": "IDR",
+            "price": "100000",
+            "other_currency": [{
+                    "currency": "AUD",
+                    "price": "10"
+                },
+                {
+                    "currency": "USD",
+                    "price": "9"
+                }
+            ]
+        },
+        {
+            "name": "Item title 4",
+            "icon_url": "www.google.com/image.png",
+            "help": false,
+            "help_info": {},
+            "currency": "IDR",
+            "price": "100000",
+            "other_currency": [{
+                    "currency": "AUD",
+                    "price": "10"
+                },
+                {
+                    "currency": "USD",
+                    "price": "9"
+                }
+            ]
+        },
+        {
+            "name": "Item title 5",
+            "icon_url": "www.google.com/image.png",
+            "help": false,
+            "help_info": {},
+            "currency": "IDR",
+            "price": "100000",
+            "other_currency": [{
+                    "currency": "AUD",
+                    "price": "10"
+                },
+                {
+                    "currency": "USD",
+                    "price": "9"
+                }
+            ]
+        }
+
+
+
+    ]
+}

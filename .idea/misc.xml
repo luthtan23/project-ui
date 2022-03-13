@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/muh/Universitas Padjadjaran/Jetpack/ProjectUI/app/src/main/res/drawable/bg_custom_checkbox.xml" value="0.181" />
+        <entry key="..\:/muh/Universitas Padjadjaran/Jetpack/ProjectUI/app/src/main/res/drawable/ic_back_ios.xml" value="0.1125" />
+        <entry key="..\:/muh/Universitas Padjadjaran/Jetpack/ProjectUI/app/src/main/res/layout/activity_main.xml" value="0.10104166666666667" />
+        <entry key="..\:/muh/Universitas Padjadjaran/Jetpack/ProjectUI/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/muh/Universitas Padjadjaran/Jetpack/ProjectUI/app/src/main/res/layout/fragment_information.xml" value="0.2421875" />
+        <entry key="..\:/muh/Universitas Padjadjaran/Jetpack/ProjectUI/app/src/main/res/layout/fragment_selected_item.xml" value="0.4" />
+        <entry key="..\:/muh/Universitas Padjadjaran/Jetpack/ProjectUI/app/src/main/res/layout/fragment_total.xml" value="0.2421875" />
+        <entry key="..\:/muh/Universitas Padjadjaran/Jetpack/ProjectUI/app/src/main/res/layout/item_content.xml" value="0.264" />
+        <entry key="..\:/muh/Universitas Padjadjaran/Jetpack/ProjectUI/app/src/main/res/layout/item_information.xml" value="0.2421875" />
+        <entry key="..\:/muh/Universitas Padjadjaran/Jetpack/ProjectUI/app/src/main/res/layout/item_selected.xml" value="0.8" />
+        <entry key="..\:/muh/Universitas Padjadjaran/Jetpack/ProjectUI/app/src/main/res/layout/item_tag.xml" value="0.72" />
+        <entry key="..\:/muh/Universitas Padjadjaran/Jetpack/ProjectUI/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.181" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

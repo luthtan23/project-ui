@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.luthtan.projectui.feature.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_selectedItemFragment"
+            app:destination="@id/selectedItemFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_totalFragment"
+            app:destination="@id/totalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectedItemFragment"
+        android:name="com.luthtan.projectui.feature.selected_item.SelectedItemFragment"
+        android:label="SelectedItemFragment" >
+        <action
+            android:id="@+id/action_selectedItemFragment_to_informationFragment"
+            app:destination="@id/informationFragment" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/informationFragment"
+        android:name="com.luthtan.projectui.feature.information.InformationFragment"
+        android:label="InformationFragment" >
+        <argument
+            android:name="item"
+            app:argType="com.luthtan.projectui.domain.entity.ItemItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/totalFragment"
+        android:name="com.luthtan.projectui.feature.total.TotalFragment"
+        android:label="TotalFragment" >
+        <action
+            android:id="@+id/action_totalFragment_to_informationFragment"
+            app:destination="@id/informationFragment" />
+    </fragment>
+</navigation>
